@@ -66,6 +66,8 @@ header div.mid-header img{
 	margin-right: 15px;
 
 }
+
+/*Estilo dos dois boxes finais presentes no header*/
 header div.bottom-header p.header-bottom-text span{
 	font-family: Montserrat, sans-serif;
 	color: white;
@@ -77,6 +79,42 @@ header div.bottom-header p.header-bottom-text span{
 	text-shadow: 1px 1px black;
 	margin-left: 10px;
 }
+
+/*Afastamento superior dos dois boxes com o texto no header*/
 header div.header-text div.bottom-header{
 	margin-top: 50px;
 }
+
+/*----------------------------------------------------------------------------------------*/
+/*Estilo da setion do trainee*/
+section.section-trainee{
+	margin-top: 100px;
+	height: 250px;
+}
+
+/*Estilo de TODO texto da section*/
+section.section-trainee div.trainee-text{
+	font-family: Montserrat, sans-serif;
+	margin-left: 500px;
+	margin-right: 200px;
+
+}
+
+/*Estilo do TÍTULO da section*/
+section.section-trainee div.trainee-text h2{
+	color: #EB6608;
+	font-weight: bolder;
+	font-size: 35px;
+	margin-bottom: 40px;
+}
+
+/*Estilo do PARÁGRAFO da section*/
+section.section-trainee div.trainee-text p{
+	text-align: justify;
+}
+
+/*Estilo da FIGURA da section*/
+section.section-trainee figure.trainee-image{
+	float: left;
+}
+/*----------------------------------------------------------------------------------------*/
