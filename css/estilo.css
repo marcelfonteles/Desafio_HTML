@@ -47,15 +47,15 @@ header div.top-header nav ul li a:hover{
 }
 
 /*Estilo do texto do header*/
-header div.mid-header p{
+header div.mid-header p.header-mid-text{
 	color: white;
 	font-family: Montserrat, sans-serif;
 	font-size: 52px;
 	font-weight: bolder;
-	text-shadow: 1.5px 1.5px #000;
+	text-shadow: 2px 2px #000;
 	letter-spacing: 3px;
 }
-header div.mid-header{
+header div.header-text{
 	display: inline-block;
 	text-align: center;
 	width: 100%;
@@ -64,4 +64,19 @@ header div.mid-header{
 }
 header div.mid-header img{
 	margin-right: 15px;
+
+}
+header div.bottom-header p.header-bottom-text span{
+	font-family: Montserrat, sans-serif;
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+	border: white solid 4px;
+	padding: 6px;
+	border-radius: 3px;
+	text-shadow: 1px 1px black;
+	margin-left: 10px;
+}
+header div.header-text div.bottom-header{
+	margin-top: 50px;
 }
