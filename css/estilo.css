@@ -8,11 +8,16 @@
 
 }
 
+/*Inserindo imagem de fundo no header*/ 
+header{     
+	background: url(../images/banner.jpg) no-repeat;     
+	background-size: 100% auto; 
+}
+
 /*Estilo do logo e do menu de navegação*/ 
 header div.top-header{
 	background-color: rgba(32, 31, 27, 0.7);
-	
-	padding: 30px 0px;
+	padding: 30px 0px 50px 0px;
 }
 header div.top-header figure.header-logo{
 	margin-left: 30px;
@@ -32,4 +37,31 @@ header div.top-header nav ul.header-nav li{
 
 }
 
-/*Estilo do meio e fim do header*/
+/*Estilo dos links do menu de navegação*/
+header div.top-header nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+header div.top-header nav ul li a:hover{
+	color: #70747c;
+}
+
+/*Estilo do texto do header*/
+header div.mid-header p{
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-size: 52px;
+	font-weight: bolder;
+	text-shadow: 1.5px 1.5px #000;
+	letter-spacing: 3px;
+}
+header div.mid-header{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 20% 0px;
+	
+}
+header div.mid-header img{
+	margin-right: 15px;
+}
