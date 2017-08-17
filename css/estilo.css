@@ -85,14 +85,13 @@ header div.header-text div.bottom-header{
 	margin-top: 50px;
 }
 
+/*Fim do estilo do HEADER*/
 /*----------------------------------------------------------------------------------------*/
 
 /*Estilo da setion do trainee*/
 section.section-trainee{
 	margin-top: 100px;
-	
 	border-bottom: 1px solid #babdc1;
-	
 }
 
 /*Estilo de TODO texto da section*/
@@ -120,6 +119,8 @@ section.section-trainee div.trainee-text p{
 section.section-trainee figure.trainee-image{
 	float: left;
 }
+
+/*Fim do estilo da section TRAINEE*/
 /*----------------------------------------------------------------------------------------*/
 
 /*Estilo da section dos conteúdos*/
@@ -164,14 +165,10 @@ section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
 section.section-conteudo div.conteudo-table{
 	border-spacing: 10px;
 	border: black solid 1px;
-	display: inline;
-	text-align: center;
+	display: inline-block;
+	width: content;
 	margin-right: auto;
 	margin-left: auto;
-	
-
-	
-	
 }
 section.section-conteudo div.conteudo-tableRow{
 	display: table-row;
