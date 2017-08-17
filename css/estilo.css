@@ -5,15 +5,15 @@
 *{
 	margin: 0px;
 	padding: 0px;
-}
-a{
 	text-decoration: none;
 }
-
+body{
+	width: 100%;
+}
 /*Inserindo imagem de fundo no header*/ 
 header{     
 	background: url(../images/banner.jpg) no-repeat;     
-	background-size: 100% auto; 
+	background-size: cover; 
 }
 
 /*Estilo do logo e do menu de navegação*/ 
@@ -58,11 +58,9 @@ header div.mid-header p.header-mid-text{
 	letter-spacing: 3px;
 }
 header div.header-text{
-	display: inline-block;
 	text-align: center;
-	width: 100%;
-	padding: 20% 0px;
-	
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 header div.mid-header img{
 	margin-right: 15px;
@@ -89,18 +87,23 @@ header div.header-text div.bottom-header{
 
 /*Fim do estilo do HEADER*/
 /*----------------------------------------------------------------------------------------*/
-
+/*Estilo da gambiarra e a linha cinza não se funde com a imagem*/
+.style-css{
+	border-bottom: 1px solid #babdc1;
+	clear: both;
+	margin-right: 10px;
+}
 /*Estilo da setion do trainee*/
 section.section-trainee{
 	margin-top: 100px;
-	border-bottom: 1px solid #babdc1;
+	
 }
 
 /*Estilo de TODO texto da section*/
 section.section-trainee div.trainee-text{
 	font-family: Montserrat, sans-serif;
 	margin-left: 500px;
-	margin-right: 200px;
+	padding-right: 200px;
 	padding-bottom: 30px;
 }
 
@@ -120,6 +123,7 @@ section.section-trainee div.trainee-text p{
 /*Estilo da FIGURA da section*/
 section.section-trainee figure.trainee-image{
 	float: left;
+	clear: both;
 }
 
 /*Fim do estilo da section TRAINEE*/
@@ -129,7 +133,7 @@ section.section-trainee figure.trainee-image{
 /*Estilo de TODA section*/
 section.section-conteudo{
 	font-family: Montserrat, sans-serif;
-	width: 100%;
+	
 	margin-top: 50px;
 	border-bottom: 1px solid #babdc1;
 	margin-bottom: 100px;
@@ -167,23 +171,23 @@ section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
 
 /*Estilo dos cursos*/
 section.section-conteudo div.conteudo-table{
-	border-spacing: 10px;
-	width: 1066px;
+	border-spacing: 15px;
 	display: inline-block;
-	margin-left: 430px;
 	margin-bottom: 30px;
 	margin-top: 30px;
-	
+}
+.align-table{
+	text-align: center;
 }
 section.section-conteudo div.conteudo-tableRow{
 	display: table-row;
 }
 section.section-conteudo div.conteudo-tableCell{
 	display: table-cell;
-	background-color: #D65B43;
-	width: 250px;
+	background-color: white;
+	width: 20%;
 	text-align: center;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	border: grey solid 2px;
 	box-shadow: 1px 2px #dee6f2;
 }
@@ -192,35 +196,41 @@ section.section-conteudo p{
 	color: white;
 	padding-left: 10px;
 }
+section.section-conteudo div.top-table{
+	background-color: #D65B43;
+	padding-bottom: 12px;
+	
+}
+section.section-conteudo div.top-table img{
+
+}
 section.section-conteudo p.table-paragraph-up{
 	letter-spacing: 1px;
 }
 section.section-conteudo p.table-paragraph-down{
 	font-weight: bolder;
 	letter-spacing: 0.2px;
-	padding-bottom: 12px;
+	
 }
-section.section-conteudo div.bottom-table{
-	background-color: white;
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-section.section-conteudo div.bottom-table p.bottom-table-paragraph-up{
+
+section.section-conteudo p.bottom-table-paragraph-up{
 	color: black;
 	text-align: center;
+	margin-top: 20px;
 }
-section.section-conteudo div.bottom-table p.bottom-table-paragraph-down{
+section.section-conteudo p.bottom-table-paragraph-down{
 	background-color: #FF7F00;
 	margin: 20px 10px 0px 10px;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;	
 	border-radius: 20px;
 	text-align: center;
 	letter-spacing: 2px;
 	font-weight: bolder;	
 	font-size: 18px;
 }
-section.section-conteudo div.bottom-table a{
+section.section-conteudo a{
 	text-decoration: none;
+	cursor: pointer;
 }
 section.section-conteudo div.conteudo-blue{
 	background-color: #46B6E6;
@@ -241,6 +251,7 @@ section.section-conteudo p.see-more{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
+
 }
 /*Fim da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
 /*----------------------------------------------------------------------------------------*/
@@ -260,23 +271,23 @@ section.section-conteudo-2 h2{
 }
 
 section.section-conteudo-2 div.conteudo-table{
-	border-spacing: 10px;
-	width: 1066px;
+	border-spacing: 15px;
 	display: inline-block;
-	margin-left: 430px;
 	margin-bottom: 30px;
 	margin-top: 30px;
-	
+}
+.align-table{
+	text-align: center;
 }
 section.section-conteudo-2 div.conteudo-tableRow{
 	display: table-row;
 }
 section.section-conteudo-2 div.conteudo-tableCell{
 	display: table-cell;
-	background-color: #D65B43;
-	width: 250px;
+	background-color: white;
+	width: 20%;
 	text-align: center;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 	border: grey solid 2px;
 	box-shadow: 1px 2px #dee6f2;
 }
@@ -285,49 +296,50 @@ section.section-conteudo-2 p{
 	color: white;
 	padding-left: 10px;
 }
+section.section-conteudo-2 div.top-table{
+	padding-bottom: 12px;
+	
+}
+section.section-conteudo-2 div.conteudo2-ruby{
+	background-color: #B21300;
+}
+section.section-conteudo-2 div.conteudo2-rails{
+	background-color: #A72D3A;
+}
+section.section-conteudo-2 div.conteudo2-heroku{
+	background-color: #8A2BFF
+}
+section.section-conteudo-2 div.top-table img{
+
+}
 section.section-conteudo-2 p.table-paragraph-up{
 	letter-spacing: 1px;
 }
 section.section-conteudo-2 p.table-paragraph-down{
 	font-weight: bolder;
 	letter-spacing: 0.2px;
-	padding-bottom: 12px;
+	
 }
-section.section-conteudo-2 div.bottom-table{
-	background-color: white;
-	padding-top: 30px;
-	padding-bottom: 20px;
-}
-section.section-conteudo-2 div.bottom-table p.bottom-table-paragraph-up{
+
+section.section-conteudo-2 p.bottom-table-paragraph-up{
 	color: black;
 	text-align: center;
+	margin-top: 20px;
 }
-section.section-conteudo-2 div.bottom-table p.bottom-table-paragraph-down{
+section.section-conteudo-2 p.bottom-table-paragraph-down{
 	background-color: #FF7F00;
 	margin: 20px 10px 0px 10px;
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px 20px 0px;	
 	border-radius: 20px;
 	text-align: center;
 	letter-spacing: 2px;
 	font-weight: bolder;	
 	font-size: 18px;
 }
-section.section-conteudo-2 div.bottom-table a{
+section.section-conteudo-2 a{
 	text-decoration: none;
+	cursor: pointer;
 }
-section.section-conteudo-2 div.conteudo2-cell-1{
-	background-color: #B21300;
-}
-section.section-conteudo-2 div.conteudo2-cell-2{
-	background-color: #A72D3A;
-}
-section.section-conteudo-2 div.conteudo2-cell-3{
-	background-color: #8A2BFF;
-}
-section.section-conteudo-2 div.conteudo2-cell-4{
-	background-color: #A72D3A;
-}
-
 section.section-conteudo-2 p.see-more{
 	text-align: center;
 	background-color: #161310;
@@ -340,6 +352,7 @@ section.section-conteudo-2 p.see-more{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
+
 }
 /*Fim da section do Ruby On Rails*/
 /*----------------------------------------------------------------------------------------*/
@@ -354,6 +367,7 @@ footer.footer{
 	padding-top: 20px;
 	font-size: 19px;
 	font-weight: bolder;
+	
 }
 footer.footer p.footer-text{
 
