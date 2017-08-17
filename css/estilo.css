@@ -5,7 +5,9 @@
 *{
 	margin: 0px;
 	padding: 0px;
-
+}
+a{
+	text-decoration: none;
 }
 
 /*Inserindo imagem de fundo no header*/ 
@@ -123,13 +125,15 @@ section.section-trainee figure.trainee-image{
 /*Fim do estilo da section TRAINEE*/
 /*----------------------------------------------------------------------------------------*/
 
-/*Estilo da section dos conteúdos*/
+/*Estilo da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
 /*Estilo de TODA section*/
 section.section-conteudo{
 	font-family: Montserrat, sans-serif;
 	width: 100%;
-	margin-top: 100px;
-	height: 400px;
+	margin-top: 50px;
+	border-bottom: 1px solid #babdc1;
+	margin-bottom: 100px;
+	padding-bottom: 50px;
 }
 
 /*Estilo de TODO o TÍTULO*/
@@ -151,6 +155,7 @@ section.section-conteudo div.conteudo-titulo h2:before{
 	background-color: #EB6608;
 	float: right;
 }
+
 /*Estilo para retirar a última barra laranja*/
 section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
 	content: "";
@@ -160,15 +165,15 @@ section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
 	width: 3px;
 }
 
-
-/*Estilo dos cursos disponíveis*/
+/*Estilo dos cursos*/
 section.section-conteudo div.conteudo-table{
 	border-spacing: 10px;
-	border: black solid 1px;
+	width: 1066px;
 	display: inline-block;
-	width: content;
-	margin-right: auto;
-	margin-left: auto;
+	margin-left: 430px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
 }
 section.section-conteudo div.conteudo-tableRow{
 	display: table-row;
@@ -211,7 +216,11 @@ section.section-conteudo div.bottom-table p.bottom-table-paragraph-down{
 	border-radius: 20px;
 	text-align: center;
 	letter-spacing: 2px;
-	font-weight: bolder; 	
+	font-weight: bolder;	
+	font-size: 18px;
+}
+section.section-conteudo div.bottom-table a{
+	text-decoration: none;
 }
 section.section-conteudo div.conteudo-blue{
 	background-color: #46B6E6;
@@ -219,3 +228,19 @@ section.section-conteudo div.conteudo-blue{
 section.section-conteudo div.conteudo-yellow{
 	background-color: #F3CA4B;
 }
+
+section.section-conteudo p.see-more{
+	text-align: center;
+	background-color: #161310;
+	border-radius: 20px;
+	width: 200px;
+	padding: 10px 0;
+	font-family: Montserrat, sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+/*Fim da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
+/*----------------------------------------------------------------------------------------*/
