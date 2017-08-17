@@ -86,10 +86,12 @@ header div.header-text div.bottom-header{
 }
 
 /*----------------------------------------------------------------------------------------*/
+
 /*Estilo da setion do trainee*/
 section.section-trainee{
 	margin-top: 100px;
 	height: 250px;
+	border-bottom: 1px solid #babdc1;
 }
 
 /*Estilo de TODO texto da section*/
@@ -118,3 +120,88 @@ section.section-trainee figure.trainee-image{
 	float: left;
 }
 /*----------------------------------------------------------------------------------------*/
+
+/*Estilo da section dos conteúdos*/
+/*Estilo de TODA section*/
+section.section-conteudo{
+	font-family: Montserrat, sans-serif;
+	width: 100%;
+	margin-top: 100px;
+	height: 400px;
+}
+
+/*Estilo de TODO o TÍTULO*/
+section.section-conteudo div.conteudo-titulo{
+	text-align: center;
+}
+section.section-conteudo div.conteudo-titulo h2{
+	color: #EB6608;
+	font-size: 35px;
+	font-weight: bolder;
+	display: inline-block;
+	width: 350px;
+
+}
+section.section-conteudo div.conteudo-titulo h2:before{
+	content: "";
+	height: 35px;
+	width: 3px;
+	background-color: #EB6608;
+	float: right;
+}
+/*Estilo para retirar a última barra laranja*/
+section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
+	content: "";
+	background-color: white;
+	float: right;
+	height: 35px;
+	width: 3px;
+}
+
+
+/*Estilo dos cursos disponíveis*/
+section.section-conteudo div.conteudo-table{
+	border-spacing: 10px;
+	margin-left: 100px;
+}
+section.section-conteudo div.conteudo-tableRow{
+	display: table-row;
+}
+section.section-conteudo div.conteudo-tableCell{
+	display: table-cell;
+	background-color: #D65B43;
+	width: 250px;
+	text-align: center;
+	padding-bottom: 0px;
+	border: grey solid 2px;
+	box-shadow: 1px 1px grey;
+}
+section.section-conteudo p{
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+section.section-conteudo p.table-paragraph-up{
+	letter-spacing: 1px;
+}
+section.section-conteudo p.table-paragraph-down{
+	font-weight: bolder;
+	letter-spacing: 0.2px;
+	padding-bottom: 12px;
+}
+section.section-conteudo div.bottom-table{
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+section.section-conteudo div.bottom-table p.bottom-table-paragraph-up{
+	color: black;
+}
+section.section-conteudo div.bottom-table p.bottom-table-paragraph-down{
+	background-color: #FF7F00;
+	margin: 20px 10px 0px 10px;
+	padding: 20px 0px 20px 0px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 	
+}
