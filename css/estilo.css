@@ -90,8 +90,9 @@ header div.header-text div.bottom-header{
 /*Estilo da setion do trainee*/
 section.section-trainee{
 	margin-top: 100px;
-	height: 250px;
+	
 	border-bottom: 1px solid #babdc1;
+	
 }
 
 /*Estilo de TODO texto da section*/
@@ -99,7 +100,7 @@ section.section-trainee div.trainee-text{
 	font-family: Montserrat, sans-serif;
 	margin-left: 500px;
 	margin-right: 200px;
-
+	padding-bottom: 30px;
 }
 
 /*Estilo do TÍTULO da section*/
@@ -162,7 +163,15 @@ section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
 /*Estilo dos cursos disponíveis*/
 section.section-conteudo div.conteudo-table{
 	border-spacing: 10px;
-	margin-left: 100px;
+	border: black solid 1px;
+	display: inline;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	
+
+	
+	
 }
 section.section-conteudo div.conteudo-tableRow{
 	display: table-row;
@@ -174,7 +183,7 @@ section.section-conteudo div.conteudo-tableCell{
 	text-align: center;
 	padding-bottom: 0px;
 	border: grey solid 2px;
-	box-shadow: 1px 1px grey;
+	box-shadow: 1px 2px #dee6f2;
 }
 section.section-conteudo p{
 	text-align: left;
@@ -192,10 +201,11 @@ section.section-conteudo p.table-paragraph-down{
 section.section-conteudo div.bottom-table{
 	background-color: white;
 	padding-top: 30px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 section.section-conteudo div.bottom-table p.bottom-table-paragraph-up{
 	color: black;
+	text-align: center;
 }
 section.section-conteudo div.bottom-table p.bottom-table-paragraph-down{
 	background-color: #FF7F00;
@@ -203,5 +213,12 @@ section.section-conteudo div.bottom-table p.bottom-table-paragraph-down{
 	padding: 20px 0px 20px 0px;
 	border-radius: 20px;
 	text-align: center;
-	margin: 	
+	letter-spacing: 2px;
+	font-weight: bolder; 	
+}
+section.section-conteudo div.conteudo-blue{
+	background-color: #46B6E6;
+}
+section.section-conteudo div.conteudo-yellow{
+	background-color: #F3CA4B;
 }
