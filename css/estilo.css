@@ -244,3 +244,117 @@ section.section-conteudo p.see-more{
 }
 /*Fim da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
 /*----------------------------------------------------------------------------------------*/
+
+/*Estilo da section do Ruby On Rails*/
+section.section-conteudo-2{
+	font-family: Montserrat, sans-serif;
+	margin-bottom: 100px;
+}
+section.section-conteudo-2 h2{
+	color: #A72D3A;
+	font-family: Montserrat, sans-serif;
+	font-size: 35px;
+	font-weight: bolder;
+	text-align: center;
+	padding-bottom: ;
+}
+
+section.section-conteudo-2 div.conteudo-table{
+	border-spacing: 10px;
+	width: 1066px;
+	display: inline-block;
+	margin-left: 430px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+section.section-conteudo-2 div.conteudo-tableRow{
+	display: table-row;
+}
+section.section-conteudo-2 div.conteudo-tableCell{
+	display: table-cell;
+	background-color: #D65B43;
+	width: 250px;
+	text-align: center;
+	padding-bottom: 0px;
+	border: grey solid 2px;
+	box-shadow: 1px 2px #dee6f2;
+}
+section.section-conteudo-2 p{
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+}
+section.section-conteudo-2 p.table-paragraph-up{
+	letter-spacing: 1px;
+}
+section.section-conteudo-2 p.table-paragraph-down{
+	font-weight: bolder;
+	letter-spacing: 0.2px;
+	padding-bottom: 12px;
+}
+section.section-conteudo-2 div.bottom-table{
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+section.section-conteudo-2 div.bottom-table p.bottom-table-paragraph-up{
+	color: black;
+	text-align: center;
+}
+section.section-conteudo-2 div.bottom-table p.bottom-table-paragraph-down{
+	background-color: #FF7F00;
+	margin: 20px 10px 0px 10px;
+	padding: 20px 0px 20px 0px;
+	border-radius: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-weight: bolder;	
+	font-size: 18px;
+}
+section.section-conteudo-2 div.bottom-table a{
+	text-decoration: none;
+}
+section.section-conteudo-2 div.conteudo2-cell-1{
+	background-color: #B21300;
+}
+section.section-conteudo-2 div.conteudo2-cell-2{
+	background-color: #A72D3A;
+}
+section.section-conteudo-2 div.conteudo2-cell-3{
+	background-color: #8A2BFF;
+}
+section.section-conteudo-2 div.conteudo2-cell-4{
+	background-color: #A72D3A;
+}
+
+section.section-conteudo-2 p.see-more{
+	text-align: center;
+	background-color: #161310;
+	border-radius: 20px;
+	width: 200px;
+	padding: 10px 0;
+	font-family: Montserrat, sans-serif;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 20px;
+}
+/*Fim da section do Ruby On Rails*/
+/*----------------------------------------------------------------------------------------*/
+
+/*Estilo do footer*/
+footer.footer{
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	background-color: #161310;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: 19px;
+	font-weight: bolder;
+}
+footer.footer p.footer-text{
+
+}
