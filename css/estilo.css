@@ -91,7 +91,7 @@ header div.header-text div.bottom-header{
 .style-css{
 	border-bottom: 1px solid #babdc1;
 	clear: both;
-	margin-right: 10px;
+	
 }
 /*Estilo da setion do trainee*/
 section.section-trainee{
@@ -185,11 +185,14 @@ section.section-conteudo div.conteudo-tableRow{
 section.section-conteudo div.conteudo-tableCell{
 	display: table-cell;
 	background-color: white;
-	width: 20%;
 	text-align: center;
 	padding-bottom: 20px;
 	border: grey solid 2px;
 	box-shadow: 1px 2px #dee6f2;
+	font-size: 16px;
+}
+section.section-conteudo div.conteudo-tableCell img{
+	image-rendering: auto;
 }
 section.section-conteudo p{
 	text-align: left;
@@ -206,6 +209,7 @@ section.section-conteudo div.top-table img{
 }
 section.section-conteudo p.table-paragraph-up{
 	letter-spacing: 1px;
+	
 }
 section.section-conteudo p.table-paragraph-down{
 	font-weight: bolder;
@@ -217,6 +221,7 @@ section.section-conteudo p.bottom-table-paragraph-up{
 	color: black;
 	text-align: center;
 	margin-top: 20px;
+	
 }
 section.section-conteudo p.bottom-table-paragraph-down{
 	background-color: #FF7F00;
@@ -285,11 +290,12 @@ section.section-conteudo-2 div.conteudo-tableRow{
 section.section-conteudo-2 div.conteudo-tableCell{
 	display: table-cell;
 	background-color: white;
-	width: 20%;
+	
 	text-align: center;
 	padding-bottom: 20px;
 	border: grey solid 2px;
 	box-shadow: 1px 2px #dee6f2;
+	font-size: 16px;
 }
 section.section-conteudo-2 p{
 	text-align: left;
