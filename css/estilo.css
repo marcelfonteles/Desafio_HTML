@@ -7,10 +7,14 @@
 	padding: 0px;
 	text-decoration: none;
 }
+
+
+
 body{
 	width: 100%;
 	background-color: #161310;
 	z-index: -100;
+	font-family: Montserrat;
 }
 #full-site{
 	max-width: 1905px;
@@ -18,361 +22,512 @@ body{
 	margin-right: auto;
 	background-color: white;
 }
-/*Inserindo imagem de fundo no header*/ 
-header{     
-	background: url(../images/banner.jpg) no-repeat;     
-	background-size: cover; 
-	filter: contrast(140%);
-}
 
-/*Estilo do logo e do menu de navegação*/ 
-header div.top-header{
-	background-color: rgba(32, 31, 27, 0.7);
-	padding: 30px 0px 50px 0px;
-}
-header div.top-header figure.header-logo{
-	margin-left: 30px;
-	float: left;
-	margin-right: 65%;
-	padding-bottom: 60px;
-}
-header div.top-header nav ul.header-nav li{
-	display: inline;
-	font-size: 18px;
-	font-family: Montserrat, sans-serif;
-	color: #fff;
-	margin-left: 20px;
-	font-weight: bolder;	
-
-}
-
-/*Estilo dos links do menu de navegação*/
-header div.top-header nav ul li a{
-	text-decoration: none;
-	color: #fff;
-}
-header div.top-header nav ul li a:hover{
-	color: #70747c;
-}
-
-/*Estilo do texto do header*/
-header div.mid-header p.header-mid-text{
-	color: white;
-	font-family: Montserrat, sans-serif;
-	font-size: 52px;
-	font-weight: bolder;
-	text-shadow: 2px 2px #000;
-	letter-spacing: 3px;
-}
-header div.header-text{
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-}
-header div.mid-header img{
-	margin-right: 15px;
-
-}
-
-/*Estilo dos dois boxes finais presentes no header*/
-header div.bottom-header p.header-bottom-text span{
-	font-family: Montserrat, sans-serif;
-	color: white;
-	font-size: 25px;
-	font-weight: bolder;
-	border: white solid 4px;
-	padding: 6px;
-	border-radius: 3px;
-	text-shadow: 1px 1px black;
-	margin-left: 10px;
-}
-
-/*Afastamento superior dos dois boxes com o texto no header*/
-header div.header-text div.bottom-header{
-	margin-top: 50px;
-}
-
-/*Fim do estilo do HEADER*/
 /*----------------------------------------------------------------------------------------*/
-/*Estilo da gambiarra e a linha cinza não se funde com a imagem*/
-.style-css{
-	border-bottom: 1px solid #babdc1;
-	clear: both;
-	
-}
-/*Estilo da setion do trainee*/
-section.section-trainee{
-	margin-top: 100px;
-	
-}
+@media screen and (max-width: 600px){
+	/*Estilo do HEADER*/
+	header{
+		background: url(../images/banner-mobile.jpg) no-repeat;
+		background-size: cover;
+	}
+	header div.top-header{
+		text-align: center;
+		background-color: rgba(32, 31, 27, 0.7); 
+	}
+	header div.top-header figure.header-logo{
+		padding-top: 2%;
+	}
+	header div.top-header nav{
+		padding-top: 1%;
+		padding-bottom: 1%;	
+	}
+	header div.top-header nav ul li{
+		display: inline;
+		margin-left: 1%;
+		font-weight: bolder;
+	}
+	header div.top-header nav ul li a{
+		text-decoration: none;
+		color: #FFF;
+	}
+	header div.top-header nav ul li a:hover{
+		color: #70747c;
+	}
+	header div.header-text{
+		text-align: center;
+		color: white;
+		font-weight: bolder;
+		text-shadow: 1px 1px black;
+		padding: 3em 0;
+	}
+	header div.header-text h1{
+		font-size: 40px;
+		padding: 3% 0 2% 0;
+	}
+	header div.header-text div.bottom-header p{
+		display: inline;
+		border: 4px solid white;
+		font-size: 30px;
+		height: 35px;
+		padding: 2% 2% 2% 2%;
+		border-radius: 3px;
+	}
+	/*FIM DO ESTILO DO HEADER*/
 
-/*Estilo de TODO texto da section*/
-section.section-trainee div.trainee-text{
-	font-family: Montserrat, sans-serif;
-	margin-left: 500px;
-	padding-right: 200px;
-	padding-bottom: 30px;
-}
+	/*ESTILO DA SEÇÃO HTML, CSS e JAVASCRIPT*/
+	section.section-conteudo{
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 30px;
 
-/*Estilo do TÍTULO da section*/
-section.section-trainee div.trainee-text h2{
-	color: #EB6608;
-	font-weight: bolder;
-	font-size: 35px;
-	margin-bottom: 40px;
+	}
+	section.section-conteudo h2{
+		display: inline;
+		color: #EB6608;
+		margin-right: 4%;
+		font-size: 30px;	
+	}
+	section.section-conteudo div.conteudo-titulo{
+		padding-bottom: 20px;
+	}
+	.align-cursos{
+		width: 274px;
+		display:inline-block;
+		padding-bottom: 20px;
+	}
+	section.section-conteudo-2{
+		margin-top: 20px;
+		text-align: center;
+	}
+	section.section-conteudo-2 h2{
+		padding-bottom: 20px;
+	}
+	p.see-more{
+		padding: 10px 10px 10px 10px;
+		width: 100px;
+		border-radius: 20px;
+	}	
 }
-
-/*Estilo do PARÁGRAFO da section*/
-section.section-trainee div.trainee-text p{
-	text-align: justify;
-}
-
-/*Estilo da FIGURA da section*/
-section.section-trainee figure.trainee-image{
-	float: left;
-	clear: both;
-}
-
-/*Fim do estilo da section TRAINEE*/
 /*----------------------------------------------------------------------------------------*/
 
-/*Estilo da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
-/*Estilo de TODA section*/
-section.section-conteudo{
-	font-family: Montserrat, sans-serif;
-	
-	margin-top: 50px;
-	border-bottom: 1px solid #babdc1;
-	margin-bottom: 100px;
-	padding-bottom: 50px;
-}
+/*----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 601px) and (max-width: 930px){
+	/*Estilo do HEADER*/
+	header{     
+		background: url(../images/banner.jpg) no-repeat;     
+		background-size: cover; 
+		filter: contrast(140%);
+		color: white;
+	}
 
-/*Estilo de TODO o TÍTULO*/
-section.section-conteudo div.conteudo-titulo{
-	text-align: center;
-}
-section.section-conteudo div.conteudo-titulo h2{
-	color: #EB6608;
-	font-size: 35px;
-	font-weight: bolder;
-	display: inline-block;
-	width: 350px;
+	/*Estilo do logo e do menu de navegação*/ 
+	header div.top-header{
+		background-color: rgba(32, 31, 27, 0.7);
+		padding: 1.5% 0px 3% 0px;
 
-}
-section.section-conteudo div.conteudo-titulo h2:before{
-	content: "";
-	height: 35px;
-	width: 3px;
-	background-color: #EB6608;
-	float: right;
-}
+	}
+	header div.top-header figure.header-logo{
+		margin-left: 1%;
+		float: left;
+		
+	}
+	header div.top-header nav ul.header-nav{
+		margin-right: 4%;
+	}
+	header div.top-header nav ul.header-nav li{
+		display: inline;
+		font-size: 1.125em;
+		color: #fff;
+		margin-left: 1.2%;
+		font-weight: bolder;
+		float: right;	
 
-/*Estilo para retirar a última barra laranja*/
-section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
-	content: "";
-	background-color: white;
-	float: right;
-	height: 35px;
-	width: 3px;
-}
+	}
 
-/*Estilo dos cursos*/
-section.section-conteudo div.conteudo-table{
-	border-spacing: 15px;
-	display: inline-block;
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-.align-table{
-	text-align: center;
-}
-section.section-conteudo div.conteudo-tableRow{
-	display: table-row;
-}
-section.section-conteudo div.conteudo-tableCell{
-	display: table-cell;
-	background-color: white;
-	text-align: center;
-	padding-bottom: 20px;
-	border: grey solid 2px;
-	box-shadow: 1px 2px #dee6f2;
-	font-size: 16px;
-}
-section.section-conteudo div.conteudo-tableCell img{
-	image-rendering: auto;
-}
-section.section-conteudo p{
-	text-align: left;
-	color: white;
-	padding-left: 10px;
-}
-section.section-conteudo div.top-table{
-	background-color: #D65B43;
-	padding-bottom: 12px;
-	
-}
-section.section-conteudo div.top-table img{
+	/*Estilo dos links do menu de navegação*/
+	header div.top-header nav ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	header div.top-header nav ul li a:hover{
+		color: #70747c;
+	}
 
-}
-section.section-conteudo p.table-paragraph-up{
-	letter-spacing: 1px;
-	
-}
-section.section-conteudo p.table-paragraph-down{
-	font-weight: bolder;
-	letter-spacing: 0.2px;
-	
-}
+	/*Estilo do texto do header*/
+	header div.mid-header h1.header-mid-text{
+		color: white;
+		font-size: 3.25em;
+		font-weight: bolder;
+		text-shadow: 2px 2px #000;
+		letter-spacing: 3px;
+	}
+	header div.header-text{
+		text-align: center;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	header div.mid-header img{
+		margin-right: 1%;
 
-section.section-conteudo p.bottom-table-paragraph-up{
-	color: black;
-	text-align: center;
-	margin-top: 20px;
-	
-}
-section.section-conteudo p.bottom-table-paragraph-down{
-	background-color: #FF7F00;
-	margin: 20px 10px 0px 10px;
-	padding: 20px 0px 20px 0px;	
-	border-radius: 20px;
-	text-align: center;
-	letter-spacing: 2px;
-	font-weight: bolder;	
-	font-size: 18px;
-}
-section.section-conteudo a{
-	text-decoration: none;
-	cursor: pointer;
-}
-section.section-conteudo div.conteudo-blue{
-	background-color: #46B6E6;
-}
-section.section-conteudo div.conteudo-yellow{
-	background-color: #F3CA4B;
-}
+	}
 
-section.section-conteudo p.see-more{
+	/*Estilo dos dois boxes finais presentes no header*/
+	header div.header-text div.bottom-header{
+		margin-top: 2%;
+	}
+	header div.header-text div.bottom-header p{
+		display: inline;
+		border: 4px solid white;
+		font-size: 30px;
+		height: 35px;
+		padding: 0.5% 1.5% 0.5% 1.5%;
+		border-radius: 3px;
+		font-weight: bolder;
+		text-shadow: 2px 2px #000;
+		margin-left: 1%;
+	}
+
+	/*Fim do estilo do HEADER*/
+
+	/*Estilo do título da seção HTML, CSS e JAVASCRIPT*/
+	section.section-conteudo{
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	section.section-conteudo div.conteudo-titulo{
+		padding-top: 35px;
+		text-align: center;
+		padding-bottom: 35px;
+	}
+	section.section-conteudo h2{
+		display: inline;
+		color: #EB6608;
+		margin-right: 4%;
+		font-size: 30px;	
+	}
+	section.section-conteudo div.conteudo-titulo h2:before{
+		content: "";
+		height: 35px;
+		width: 4px;
+		background-color: #EB6608;
+
+	}
+	/*Fim do estilo da seção HTML, CSS e JAVASCRIPT*/
+
+	/*Estilo da seção Ruby On Rails*/
+	section.section-conteudo-2{
+		padding-top: 20px;
+	}
+	section.section-conteudo-2 h2{
+		padding-bottom: 20px;
+	}
+	/*Fim do estilo da seção Ruby On Rails*/
+
+	.align-cursos{
+		margin-left: 40px;
+		display: inline-block;
+	}
+
+	p.see-more{
 	text-align: center;
 	background-color: #161310;
 	border-radius: 20px;
-	width: 200px;
-	padding: 10px 0;
-	font-family: Montserrat, sans-serif;
+	width: 15%;
+	padding: 1% 0;
 	font-weight: bolder;
 	letter-spacing: 2px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 20px;
+	font-size: 1.25em;
+	clear: both;
+	color: white;
+	}
+}
+/*----------------------------------------------------------------------------------------*/
 
+/*----------------------------------------------------------------------------------------*/
+@media screen and (min-width: 931px){
+	/*Estilo do HEADER*/
+	/*Inserindo imagem de fundo no header*/ 
+	header{     
+		background: url(../images/banner.jpg) no-repeat;     
+		background-size: cover; 
+		filter: contrast(140%);
+		color: white;
+	}
+
+	/*Estilo do logo e do menu de navegação*/ 
+	header div.top-header{
+		background-color: rgba(32, 31, 27, 0.7);
+		padding: 1.5% 0px 3% 0px;
+
+	}
+	header div.top-header figure.header-logo{
+		margin-left: 1%;
+		float: left;
+		
+	}
+	header div.top-header nav ul.header-nav{
+		margin-right: 4%;
+	}
+	header div.top-header nav ul.header-nav li{
+		display: inline;
+		font-size: 1.125em;
+		color: #fff;
+		margin-left: 1.2%;
+		font-weight: bolder;
+		float: right;	
+
+	}
+
+	/*Estilo dos links do menu de navegação*/
+	header div.top-header nav ul li a{
+		text-decoration: none;
+		color: #fff;
+	}
+	header div.top-header nav ul li a:hover{
+		color: #70747c;
+	}
+
+	/*Estilo do texto do header*/
+	header div.mid-header h1.header-mid-text{
+		color: white;
+		font-size: 3.25em;
+		font-weight: bolder;
+		text-shadow: 2px 2px #000;
+		letter-spacing: 3px;
+	}
+	header div.header-text{
+		text-align: center;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+	header div.mid-header img{
+		margin-right: 1%;
+
+	}
+
+	/*Estilo dos dois boxes finais presentes no header*/
+	header div.header-text div.bottom-header{
+		margin-top: 2%;
+	}
+	header div.header-text div.bottom-header p{
+		display: inline;
+		border: 4px solid white;
+		font-size: 30px;
+		height: 35px;
+		padding: 0.5% 1.5% 0.5% 1.5%;
+		border-radius: 3px;
+		font-weight: bolder;
+		text-shadow: 2px 2px #000;
+		margin-left: 1%;
+	}
+
+	/*Fim do estilo do HEADER*/
+
+	/*Estilo do título da seção HTML, CSS e JAVASCRIPT*/
+	section.section-conteudo{
+	margin-top: 2%;
+	border-bottom: 1px solid #babdc1;
+	margin-bottom: 4%;
+	padding-bottom: 2%;
+	width: 100%;
+	
+	}
+
+	/*Estilo de TODO o TÍTULO*/
+	section.section-conteudo div.conteudo-titulo{
+		text-align: center;
+		display: inline-block;
+		width: 100%;
+	}
+	section.section-conteudo div.conteudo-titulo h2{
+		color: #EB6608;
+		font-size: 3.1875em; /*35px == 3.1875*/
+		font-weight: bolder;
+		display: inline-block;
+		
+		width: 25%;
+	}
+	section.section-conteudo div.conteudo-titulo h2:before{
+		content: "";
+		height: 35px;
+		width: 4px;
+		background-color: #EB6608;
+		float: right;
+		margin-top: 12px;
+	}
+
+	/*Estilo para retirar a última barra laranja*/
+	section.section-conteudo div.conteudo-titulo h2#conteudo-last-element:before{
+		content: "";
+		background-color: white;
+		float: right;
+		height: 35px;
+		width: 0.5%;
+	}
+	/*Fim do estilo da seção HTML, CSS e JAVASCRIPT*/
+
+	/*Alinhamento dos cursos na parte central da página*/
+	.align-cursos{
+	margin-bottom: 1%;
+	margin-top: 2%;
+	width: 60.5%;
+	margin-right:19.75%; 
+	margin-left:19.75%;	
+	}
+
+	p.see-more{
+	text-align: center;
+	background-color: #161310;
+	border-radius: 20px;
+	width: 15%;
+	padding: 1% 0;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+	clear: both;
+	color: white;
+}
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*Estilo da gambiarra e a linha cinza não se funde com a imagem*/
+.style-css{
+	border-bottom: 1px solid #babdc1;
+	clear: both;	
+}
+/*----------------------------------------------------------------------------------------*/
+
+/*Estilo da setion do trainee*/
+	section.section-trainee{
+		margin-top:2.5%;
+		
+	}
+
+	/*Estilo de TODO texto da section*/
+	section.section-trainee div.trainee-text{
+		margin-left: 25%;
+		padding-right: 10%;
+		padding-bottom: 2%;
+	}
+
+	/*Estilo do TÍTULO da section*/
+	section.section-trainee div.trainee-text h2{
+		color: #EB6608;
+		font-weight: bolder;
+		font-size: 2.1875em; /*35px == 2.1875em*/
+		margin-bottom: 2%;
+	}
+
+	/*Estilo do PARÁGRAFO da section*/
+	section.section-trainee div.trainee-text p{
+		text-align: justify;
+	}
+
+	/*Estilo da FIGURA da section*/
+	section.section-trainee figure.trainee-image{
+		float: left;
+		clear: both;
+	}
+
+	/*Fim do estilo da section TRAINEE*/
+/*----------------------------------------------------------------------------------------*/	
+
+
+/*Estilo da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
+/*Estilo de TODA section*/
+section.section-conteudo{
+	border-bottom: 1px solid #babdc1;
+}
+
+/*Estilo dos cursos*/
+div.cursos{
+	border: grey solid 2px;
+	box-shadow: 1px 2px #dee6f2;
+	float: left;
+	height: auto;
+	width: 270px;
+	margin-right: 1.2%;
+	margin-bottom: 2%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+div.cursos div.cursos-top{
+	background-color: #D65B43;
+	padding-right: 10px;
+	color: white;
+	margin-bottom: 6%;
+}
+div.cursos div.cursos-top p{
+	padding-left: 0.5%;
+	text-align: left;
+}
+div.cursos div.cursos-top p.inside-up{
+	letter-spacing: 2px;
+}
+div.cursos div.cursos-top p.inside-down{
+	letter-spacing: 0.5px;
+}
+div.cursos p.outside-up{
+	margin-bottom: 6%;
+}
+div.cursos p.outside-down{
+	color: white;
+	background-color: #FF7F00;
+	padding: 3%;
+	margin: 0 6% 5% 6%;
+	border-radius: 20px;	
+}
+div.cursos div.cursos-yellow{
+	background-color: #F3CA4B;
+}
+div.cursos div.cursos-blue{
+	background-color: #46B6E6;
+}
+/*Fim dos cursos*/
+p.see-more{
+	text-align: center;
+	background-color: #161310;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 1.25em;
+	clear: both;
+	color: white;
 }
 /*Fim da section dos conteúdos HTML 5, CSS 3 e JAVASCRIPT*/
 /*----------------------------------------------------------------------------------------*/
 
 /*Estilo da section do Ruby On Rails*/
 section.section-conteudo-2{
-	font-family: Montserrat, sans-serif;
 	margin-bottom: 100px;
 }
 section.section-conteudo-2 h2{
 	color: #A72D3A;
-	font-family: Montserrat, sans-serif;
-	font-size: 35px;
+	font-size: 2.1875em;
 	font-weight: bolder;
 	text-align: center;
-	padding-bottom: ;
 }
-
-section.section-conteudo-2 div.conteudo-table{
-	border-spacing: 15px;
-	display: inline-block;
-	margin-bottom: 30px;
-	margin-top: 30px;
-}
-.align-table{
-	text-align: center;
-}
-section.section-conteudo-2 div.conteudo-tableRow{
-	display: table-row;
-}
-section.section-conteudo-2 div.conteudo-tableCell{
-	display: table-cell;
-	background-color: white;
-	
-	text-align: center;
-	padding-bottom: 20px;
-	border: grey solid 2px;
-	box-shadow: 1px 2px #dee6f2;
-	font-size: 16px;
-}
-section.section-conteudo-2 p{
-	text-align: left;
-	color: white;
-	padding-left: 10px;
-}
-section.section-conteudo-2 div.top-table{
-	padding-bottom: 12px;
-	
-}
-section.section-conteudo-2 div.conteudo2-ruby{
-	background-color: #B21300;
-}
-section.section-conteudo-2 div.conteudo2-rails{
+section.section-conteudo-2 div.cursos-rails{
 	background-color: #A72D3A;
 }
-section.section-conteudo-2 div.conteudo2-heroku{
-	background-color: #8A2BFF
+section.section-conteudo-2 div.cursos-ruby{
+	background-color: #B21300;
 }
-section.section-conteudo-2 div.top-table img{
-
-}
-section.section-conteudo-2 p.table-paragraph-up{
-	letter-spacing: 1px;
-}
-section.section-conteudo-2 p.table-paragraph-down{
-	font-weight: bolder;
-	letter-spacing: 0.2px;
-	
+section.section-conteudo-2 div.cursos-heroku{
+	background-color: #8A2BFF;
 }
 
-section.section-conteudo-2 p.bottom-table-paragraph-up{
-	color: black;
-	text-align: center;
-	margin-top: 20px;
-}
-section.section-conteudo-2 p.bottom-table-paragraph-down{
-	background-color: #FF7F00;
-	margin: 20px 10px 0px 10px;
-	padding: 20px 0px 20px 0px;	
-	border-radius: 20px;
-	text-align: center;
-	letter-spacing: 2px;
-	font-weight: bolder;	
-	font-size: 18px;
-}
-section.section-conteudo-2 a{
-	text-decoration: none;
-	cursor: pointer;
-}
-section.section-conteudo-2 p.see-more{
-	text-align: center;
-	background-color: #161310;
-	border-radius: 20px;
-	width: 200px;
-	padding: 10px 0;
-	font-family: Montserrat, sans-serif;
-	font-weight: bolder;
-	letter-spacing: 2px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 20px;
-
-}
 /*Fim da section do Ruby On Rails*/
 /*----------------------------------------------------------------------------------------*/
 
 /*Estilo do footer*/
 footer.footer{
-	font-family: Montserrat, sans-serif;
 	text-align: center;
 	background-color: #161310;
 	color: white;
@@ -381,7 +536,4 @@ footer.footer{
 	font-size: 19px;
 	font-weight: bolder;
 	
-}
-footer.footer p.footer-text{
-
 }
